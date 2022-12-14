@@ -1,0 +1,10 @@
+工作区就是电脑里能看到的目录
+
+暂存区里放置git add的内容
+
+创建Git时，Git自动创建了第一个分支master
+HEAD是指向master的指针
+git commit就是把暂存区的内容往master（分支）里提交更改
+提交后暂存区就什么都没有了
+
+每次修改后都要git add，然后再git commit
